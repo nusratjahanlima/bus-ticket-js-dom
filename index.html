@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bus Ticket</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Ticket</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -16,9 +16,12 @@
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
-          
+
         </div>
         <a class="btn btn-ghost text-xl pl-16">P-Ticket</a>
       </div>
@@ -41,40 +44,100 @@
   </nav>
 
 
-<main>
-  <div class="container mx-auto lg:px-24 px-8">
-    <div class="banner w-full">
-      <div class="banner-items relative w-full bg-[linear-gradient(45deg,rgb(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner.png)] h-[60vh] bg-center bg-cover flex items-center justify-center">
-        <div class="flex flex-col justify-center">
-          <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">End-to-End Travel with  <br> <span class="text-lime-400">P Paribahan</span></h1>
-        <p class="text-white w-2/3 text-center mx-auto my-4">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-        <button class="btn bg-lime-400 border-none text-black mx-auto">Buy Tickets</button>
+  <main>
+    <div class="container mx-auto mt-4 lg:px-24 px-8">
+      <div class="banner w-full">
+        <div
+          class="banner-items relative w-full bg-[linear-gradient(180.00deg,rgba(3,7,18,0.5),rgba(3,7,18,0)),url(./images/banner.png)] h-[60vh] bg-center bg-cover flex items-center justify-center rounded-2xl">
+          <div class="flex flex-col justify-center">
+            <h1 class="text-3xl lg:text-7xl text-white font-bold text-center">End-to-End Travel with <br> <span
+                class="text-lime-400">P Paribahan</span></h1>
+            <p class="text-white w-2/3 text-center mx-auto my-4">Yes, you can run unit tests and view the results
+              directly within the app. The integrated testing features allow for a streamlined .</p>
+            <button class="btn bg-lime-400 border-none text-black mx-auto">Buy Tickets</button>
+          </div>
         </div>
-      </div>          
-    </div>
-  
-    <div class="h-[20vh] hidden w-2/3 mx-auto bg-white shadow-lg rounded-lg -translate-y-12 lg:flex items-center justify-center">
-      <div class="flex items-center justify-around space-x-4">
-        <div class="h-24 bg-slate-100">
+      </div>
 
+
+      <div class="grid grid-cols-3 divide-x h-[20vh] mx-auto space-x-4 bg-white shadow-lg rounded-lg -translate-y-12">
+      
+        <div class="flex items-center justify-center">
+          <div>
+            <img src="./images/people.png" alt="">
+          </div>
+          <div>
+            <p>500K+</p>
+            <p>Registered users</p>
+          </div>
         </div>
-        <div class="h-24 bg-slate-100">
-          
+        <div class="flex items-center justify-center">
+          <div>
+            <img src="./images/ticket-cupon.png" alt="">
+          </div>
+          <div>
+            <p>1.7 lacks</p>
+            <p>Tickets sold</p>
+          </div>
         </div>
-        <div class="h-24 bg-slate-100">
-          
+        <div class="flex items-center justify-center">
+          <div>
+            <img src="./images/stoppage.png" alt="">
+          </div>
+          <div>
+            <p>80K+</p>
+            <p>Rental partners</p>
+          </div>
         </div>
       </div>
     </div>
 
-  </div>
-</main>
-
-<footer>
+<section class="container">
+  <div class="flex flex-col justify-center">
+      <h3 class="text-center text-black font-bold">Best offers for you</h3>
+ 
+    <div class="flex items-center justify-center mt-6 gap-x-4">
+      <div class="h-[180px] flex flex-row items-center justify-around bg-amber-400 rounded-md px-4">
+        <div>
+          <p>15% OFF <br>
+            on your next purchasebr <br>
+            use by January 2024</p>
+        </div>
+        <div class="divider  lg:divider-horizontal"></div>
+        <div>
+          <p>NEW15 <br>
+            Coupon Code</p>
+        </div>
+      </div>
     
-</footer>
+    <div class="h-[180px] flex flex-row items-center justify-around bg-rose-400 rounded-md px-4">
+      <div>
+        <p>20% OFF <br>
+          on your next purchase <br>
+          use by January 2024</p>
+      </div>
+      <div class="divider lg:divider-horizontal"></div>
+      <div>
+        <p>Couple 20 <br>
+          Coupon Code
+      </div>
+    </div>
+    </div>
+  
+<div class="flex items-center justify-center mt-6">
+  <button class="btn  bg-lime-100 text-lime-400">See All Offers</button>
+</div>
+</div>
+</section>
 
-    <script src="/script.js"></script>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="/script.js"></script>
+
 </body>
 
 </html>
