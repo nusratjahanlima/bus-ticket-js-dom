@@ -133,55 +133,56 @@
     <section>
       <div class="flex flex-col items-center justify-center mt-6">
         <h1>P.H Paribahan</h1>
-        <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+        <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features
+          allow for a streamlined .</p>
       </div>
 
       <div class="flex flex-row justify-around mt-6">
-      <div class="w-3/4 h-64 flex flex-col justify-around">
-      
-        <div class="flex items-center justify-between">
-         <div class="flex items-center justify-start">
-          <img src="./images/bus-logo.png" alt="">
-          <div>
-            <h2>Greenline Paribahan</h2>
-            <p>Coach-009-WEB ! AC_Business</p>
+        <div class="w-3/4 h-64 flex flex-col justify-around divide-y divide-dashed">
+
+          <div class="flex items-center justify-between">
+            <div class="flex items-center justify-start">
+              <img src="./images/bus-logo.png" alt="">
+              <div>
+                <h2>Greenline Paribahan</h2>
+                <p>Coach-009-WEB ! AC_Business</p>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-end">
+              <img src="./images/seat-green-filled.png" alt="">
+              <p>40 Seats left</p>
+            </div>
           </div>
-         </div>
-       
-         <div class="flex items-center justify-end">
-          <img src="./images/seat-green-filled.png" alt="">
-          <p>40 Seats left</p>
-         </div>
+
+
+
+          <div class="flex flex-col justify-between py-4">
+            <div class="flex items-center justify-between">
+              <p>Route</p>
+              <p>Dhaka - Sylhet</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <p>Departure Time</p>
+              <p>9:00 PM</p>
+            </div>
+          </div>
+
+
+
+          <div class="text-gray-500  flex items-center justify-around py-4">
+            <p class="bg-gray-300">Boarding Point - Laxmipur</p>
+            <p class="bg-gray-300">Dropping Point - Bogura</p>
+            <p class="bg-gray-300">Est. Time - 11 Hour</p>
+          </div>
+
         </div>
 
-        <div class="divider"></div> 
-   
-       <div class="flex flex-col justify-between gap-y-4">
-        <div class="flex items-center justify-between">
-          <p>Route</p>
-          <p>Dhaka - Sylhet</p>
-        </div>
 
-        <div class="flex items-center justify-between">
-          <p>Departure Time</p>
-          <p>9:00 PM</p>
-        </div>
-       </div>
-    
-       <div class="divider"></div> 
-       
-        <div class="text-gray-500  flex items-center justify-around ">
-          <p class="bg-gray-300">Boarding Point - Laxmipur</p>
-          <p class="bg-gray-300">Dropping Point - Bogura</p>
-          <p class="bg-gray-300">Est. Time - 11 Hour</p>
-        </div>
-       
-      </div>
-        
+        <div class="divider lg:divider-horizontal"></div>
 
-      <div class="divider lg:divider-horizontal"></div> 
-
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between ">
           <img src="./images/fare.png" alt="">
           <p>550 Taka <br>
             Per Seat</p>
@@ -190,15 +191,68 @@
     </section>
 
 
+    <section class="container my-6">
+      <h3 class="text-center font-bold">Select Your Seat</h3>
+      <div class="flex flex-row items-center justify-center">
+        <div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between">
+              <img src="./images/seat-gray.png" alt="">
+              <p>Available</p>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <img src="./images/seat-green-filled.png" alt="">
+              <p>Selected</p>
+            </div>
+          </div>
+
+          <div>
+            <img class="flex items-center justify-end" src="./images/seat-list.png" alt="">
+          </div>
 
 
+          <div>
+            <ul class="flex flex-row justify-around menu menu-vertical lg:menu-horizontal">
+              <li><a>A</a></li>
+              <li><a>A1</a></li>
+              <li><a>A2</a></li>
+              <li><a>A3</a></li>
+              <li><a>A4</a></li>
+            </ul>
+            <ul class="flex flex-row justify-around menu menu-vertical lg:menu-horizontal">
+              <li><a>B</a></li>
+              <li><a>B1</a></li>
+              <li><a>B3</a></li>
+              <li><a>B4</a></li>
+              <li><a>B5</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div>
+          <label class="form-control w-full max-w-xs">
+            <p>Passenger Name*</p>
+            <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+
+            <p>Phone Number*</p>
+            <input type="text" placeholder="Enter your phone name" class="input input-bordered w-full max-w-xs" />
+
+            <p>Email Id</p>
+            <input type="text" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs" />
+          </label>
+
+          <button class="btn btn-ghost">Next</button>
+
+          <div class="flex items-center justify-between">
+            <p>Terms and Conditions</p>
+            <p>Cancellation Policy</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-
-
-
-
-
-
 
   <footer class="footer p-10 bg-neutral text-neutral-content mt-6">
 
@@ -229,36 +283,6 @@
       </div>
     </nav>
   </footer>
-
-
-
-
-
-
-
-
-
-
-  <!--  <footer class="footer p-10 bg-neutral text-neutral-content">
-    
-      <aside>
-        <p>P-Ticket</p>
-        <p>P-Ticket is a digital platform to make your <br> daily commuting better.</p>
-      </aside> 
-      <nav>
-        <h6 class="footer-title">Download our app</h6> 
-        <div class="grid grid-flow-col gap-4">
-          <img src="./images/playstore.png" alt="">
-          <div>
-            <p>GET IT ON <br> <span>Google Play</span></p>
-          </div>
-        </div>
-      </nav>
-      <div class="border-t border-dashed border-gray-300"></div>
-
-      
-    </footer> -->
-
 
   <script src="/script.js"></script>
 
